@@ -9,9 +9,7 @@ import org.junit.runner.RunWith;
         // Here some tags can be set, for example, tags = {"@Example", "~@ignore"},
         tags = {"@4.1.2WishListIconFromProductCategoryPages"},
         plugin = {"html:target/cucumber", "json:target/cucumber.json"},
-       // features = {"src/test/resources/features/WishList_4_6.feature"},
         features = {"src/test/resources/features/Egils_WishList.feature"},
-        //features = {"src/test/resources/features/Egils_WishList.feature"},
         dryRun = false,
         glue = {"stepDefinitions"}
 )
